@@ -42,7 +42,7 @@ def main():
         print(f"The directory {docs_directory} does not exist or is not a directory.")
         sys.exit(1)
     
-    output_file = 'combined.mdx'
+    output_file = 'output/combined.md'
     mdx_files = get_mdx_files(docs_directory)
     concatenate_mdx_files(mdx_files, output_file)
 
